@@ -8,4 +8,4 @@ script:
 - wget http://www.scala-lang.org/files/archive/scala-${TRAVIS_SCALA_VERSION}.zip
 - unzip scala-${TRAVIS_SCALA_VERSION}.zip
 - chmod +x ./scala-${TRAVIS_SCALA_VERSION}/bin/scalac
-- ./scala-${TRAVIS_SCALA_VERSION}/bin/scalac A.scala
+- ./scala-${TRAVIS_SCALA_VERSION}/bin/scalac -nobootcp A.scala
